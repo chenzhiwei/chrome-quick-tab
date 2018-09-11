@@ -1,5 +1,4 @@
 chrome.commands.onCommand.addListener(function(command) {
-  console.log(command);
   let index = parseInt(command.slice(-1)) - 1;
   chrome.tabs.query({index: index}, function(tabs){
     if (tabs.length > 0) {
