@@ -11,6 +11,7 @@
         "default": "Alt+1",
         "mac": "MacCtrl+1"
       },
+      "global": false,
       "description": "Switch to 1 tab"
     },
     "switch-to-2": {
@@ -18,6 +19,7 @@
         "default": "Alt+2",
         "mac": "MacCtrl+2"
       },
+      "global": false,
       "description": "Switch to 2 tab"
     },
     "switch-to-3": {
@@ -25,6 +27,7 @@
         "default": "Alt+3",
         "mac": "MacCtrl+3"
       },
+      "global": false,
       "description": "Switch to 3 tab"
     },
     "switch-to-4": {
@@ -32,27 +35,34 @@
         "default": "Alt+4",
         "mac": "MacCtrl+4"
       },
+      "global": false,
       "description": "Switch to 4 tab"
     },
     "switch-to-5": {
+      "global": false,
       "description": "Switch to 5 tab"
     },
     "switch-to-6": {
+      "global": false,
       "description": "Switch to 6 tab"
     },
     "switch-to-7": {
+      "global": false,
       "description": "Switch to 7 tab"
     },
     "switch-to-8": {
+      "global": false,
       "description": "Switch to 8 tab"
     },
     "switch-to-9": {
+      "global": false,
       "description": "Switch to 9 tab"
     }
   },
   "icons": {
     "16": "icon/cut-16.png",
-    "48": "icon/cut-48.png"
+    "48": "icon/cut-48.png",
+    "128": "icon/cut-128.png"
   },
   "background": {
     "persistent": false,
