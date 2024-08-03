@@ -1,6 +1,6 @@
 {
-  "manifest_version": 2,
-  "version": "0.1.2",
+  "manifest_version": 3,
+  "version": "0.2.0",
   "name": "Quick Tab",
   "short_name": "Quick Tab",
   "description": "Quickly switch to specific tab",
@@ -56,8 +56,10 @@
     "128": "icon/cut-128.png"
   },
   "background": {
-    "persistent": false,
-    "scripts": ["js/event.js"]
+    "service_worker": "js/event.js",
+    "type": "module"
   },
-  "permissions": ["tabs"]
+  "permissions": [
+    "tabs"
+  ]
 }
